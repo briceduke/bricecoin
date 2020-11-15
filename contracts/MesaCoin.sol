@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 
-contract BriceCoin {
+contract MesaCoin {
     // TODO: Constructor
 
     // TODO: Total tokens

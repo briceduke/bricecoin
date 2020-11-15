@@ -1,5 +1,5 @@
-const BriceCoin = artifacts.require("./BriceCoin.sol");
+const MesaCoin = artifacts.require("./MesaCoin.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(BriceCoin);
+  deployer.deploy(MesaCoin);
 };

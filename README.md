@@ -1,4 +1,4 @@
-# BRICECOIN
+# MesaCoin
 
 A simple ERC-20 Token on the Rinkeby Test Network
 
@@ -9,4 +9,4 @@ A simple ERC-20 Token on the Rinkeby Test Network
 ## What's to come?
 
 - Fully functional trading capabilities
-- A React-powered web client for trading and viewing BriceCoin's stats
+- A React-powered web client for trading and viewing MesaCoin's stats

@@ -1,12 +1,12 @@
 require("dotenv").config();
 
-var BriceCoin = artifacts.require("./BriceCoin.sol");
+var MesaCoin = artifacts.require("./MesaCoin.sol");
 
 const TOTAL = process.env.TOTAL;
 
-contract("BriceCoin", function (accounts) {
+contract("MesaCoin", function (accounts) {
   it("sets total supply on depl.", function () {
-    return BriceCoin.deployed()
+    return MesaCoin.deployed()
       .then(function (instance) {
         tokenInstance = instance;
         return tokenInstance.totalSupply();
