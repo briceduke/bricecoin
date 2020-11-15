@@ -1,5 +1,5 @@
 const MesaCoin = artifacts.require("./MesaCoin.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(MesaCoin);
+  deployer.deploy(MesaCoin, 69420);
 };
